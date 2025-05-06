@@ -705,3 +705,17 @@ header {
 html {
   scroll-behavior: smooth;
 }
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .hero-text {
+    font-size: 18px;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+}
